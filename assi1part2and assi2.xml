@@ -1,0 +1,39 @@
+<?xml-model href="file.dtd" type="application/xml-dtd"?>
+<library librarian="" location="">
+
+
+
+<books>
+<book  ISBN="" title="X1" preface="">
+<author>
+</author>
+<author>
+</author>
+
+<part>
+<chapters>
+<chapter title="" summary="">1
+
+<section>
+<p>
+</p>
+</section>
+<section>
+<p>
+</p>
+</section>
+</chapter>
+<chapter>2
+</chapter>
+</chapters>
+</part>
+
+
+</book>
+</books>
+
+
+
+It's my library
+
+</library>

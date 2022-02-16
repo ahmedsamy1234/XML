@@ -1,0 +1,17 @@
+<!ELEMENT employees (emp*)>
+<!ELEMENT emp (phones,addresses)>
+<!ATTLIST emp Name ID #REQUIRED>
+<!ATTLIST emp Email CDATA #REQUIRED>
+
+<!ELEMENT  addresses (#PCDATA)>
+<!ELEMENT phones (phone+)>
+<!ELEMENT phone (#PCDATA)>
+<!ATTLIST phone Type ID #REQUIRED>
+<!ATTLIST addresses Street ID #REQUIRED>
+<!ATTLIST addresses  Building CDATA #REQUIRED>
+
+<!ATTLIST addresses number CDATA #REQUIRED>
+<!ATTLIST addresses region CDATA #REQUIRED>
+
+<!ATTLIST addresses city CDATA #REQUIRED>
+<!ATTLIST addresses country CDATA #REQUIRED>

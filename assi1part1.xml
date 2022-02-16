@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<?xml-model href="file.dtd" type="application/xml-dtd"?>
+<?xml-model href="check.xsd" type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<employees>
+        <emp Name="ahned" Email="adf">
+            <phones>
+                    <phone Type="Home">
+                    </phone>
+                    <phone Type="Work">
+                    </phone>
+                    <phone Type="mobile">
+                    </phone>
+            </phones>
+            <addresses Street="ag" Building="c" number="vc" region="fd" city="ad" country="cv"> 
+            </addresses>
+        </emp>
+</employees>
